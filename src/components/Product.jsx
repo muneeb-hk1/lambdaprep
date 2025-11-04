@@ -1,5 +1,6 @@
 import React from "react";
 // import product_img from "../../public/img/product-1.svg"
+import { Link } from "react-router-dom";
 
 const Product = () => {
   return (
@@ -174,9 +175,9 @@ const Product = () => {
                     Seamless integration across JIRA, Azure DevOps, and more.  
                     Wherever you describe your tests KaneAI will follow.
                   </p>
-                  <a href="#" className="anc_tag3 mt-10 inline-block">
+                  <Link to="/components/doc" className="anc_tag3 mt-10 inline-block">
                     Avail Now
-                  </a>
+                  </Link>
                 </div>
                 <div className="absolute w-full md:w-5/12 right-0 bottom-0 border-2 border-t-blue-400 border-l-blue-400 border-transparent rounded-tl-[20px] bg-white p-40">
                   <img src="/img/integrationList.svg" />
@@ -190,9 +191,9 @@ const Product = () => {
                     Leaders at Lime on the conversations that <br /> bring value
                     and drive business
                   </p>
-                  <a href="#" className="anc_tag4 mt-10 font-medium">
+                  <Link to="/components/doc" className="anc_tag4 mt-10 font-medium">
                     Brochure
-                  </a>
+                  </Link>
                 </div> 
                 <div className="w-6/12 hidden md:block ">
                   <img src="/img/million.png" className="w-[80%]" />

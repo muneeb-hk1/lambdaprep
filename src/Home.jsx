@@ -2,6 +2,7 @@ import React from 'react'
 import hero_img from "../public/img/hero-1.png"
 import Product from './components/Product'
 import Server from "./components/Server"
+import Pop from './components/Pop'
 
 const Home = () => {
   return (
@@ -37,6 +38,7 @@ const Home = () => {
       </section>
       <Product />
       <Server />
+      <Pop/>
     </>
   );
 }
