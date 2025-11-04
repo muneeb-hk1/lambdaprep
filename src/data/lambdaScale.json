@@ -1,0 +1,37 @@
+[
+  {
+    "year": 2017,
+    "growth": 1,
+    "cost": 40
+  },
+  {
+    "year": 2018,
+    "growth": 30,
+    "cost": 101
+  },
+  {
+    "year": 2019,
+    "growth": 71,
+    "cost": 251
+  },
+  {
+    "year": 2020,
+    "growth": 94,
+    "cost": 20
+  },
+  {
+    "year": 2021,
+    "growth": 121,
+    "cost": 330
+  },
+  {
+    "year": 2023,
+    "growth": 256,
+    "cost": 66
+  },
+  {
+    "year": 2024,
+    "growth": 400,
+    "cost": 82
+  }
+]

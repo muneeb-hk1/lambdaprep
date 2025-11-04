@@ -1,0 +1,73 @@
+[
+  {
+    "label": "Jan",
+    "revenue": 64854,
+    "cost": 32652,
+    "date": "2023-01-01"
+  },
+  {
+    "label": "Feb",
+    "revenue": 54628,
+    "cost": 42393,
+    "date": "2023-01-01"
+  },
+  {
+    "label": "Mar",
+    "revenue": 117238,
+    "cost": 50262,
+    "date": "2023-01-01"
+  },
+  {
+    "label": "Apr",
+    "revenue": 82830,
+    "cost": 64731,
+    "date": "2023-01-01"
+  },
+  {
+    "label": "May",
+    "revenue": 91208,
+    "cost": 41893,
+    "date": "2023-01-01"
+  },
+  {
+    "label": "Jun",
+    "revenue": 103609,
+    "cost": 83809,
+    "date": "2023-01-01"
+  },
+  {
+    "label": "Jul",
+    "revenue": 90974,
+    "cost": 44772,
+    "date": "2023-01-01"
+  },
+  {
+    "label": "Aug",
+    "revenue": 82919,
+    "cost": 37590,
+    "date": "2023-01-01"
+  },
+  {
+    "label": "Sep",
+    "revenue": 62407,
+    "cost": 43349,
+    "date": "2023-01-01"
+  },
+  {
+    "label": "Oct",
+    "revenue": 82528,
+    "cost": 45324,
+    "date": "2023-01-01"
+  },
+  {
+    "label": "Nov",
+    "revenue": 56979,
+    "cost": 47978,
+    "date": "2023-01-01"
+  },
+  {
+    "label": "Dec",
+    "revenue": 87436,
+    "cost": 39175
+  }
+]
