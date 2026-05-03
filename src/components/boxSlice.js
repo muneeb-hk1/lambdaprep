@@ -12,14 +12,14 @@ export const fetchAgentBoxes = createAsyncThunk("agent/fetch", async () => {
   const response2 = await axios.get("/api/agent-to-agent.json");
   return response2.data;
 });
- 
+
 const boxSlice = createSlice({
   name: "boxes",
   initialState: {
     items: [],
-    agents:[],
+    agents: [],
     loading: false,
-    error: null,    
+    error: null,
   },
   reducers: {},
   extraReducers: (builder) => {
@@ -42,7 +42,7 @@ const boxSlice = createSlice({
       .addCase(fetchAgentBoxes.pending, (state) => {
         state.loading = true;
         state.error = null;
-      }) 
+      })
       .addCase(fetchAgentBoxes.fulfilled, (state, action) => {
         state.loading = false;
         state.agents = action.payload.agentData; // agent-to-agent.json wrapper

@@ -12,8 +12,8 @@ const Product = () => {
               <div className="w-1/12 flex flex-col items-center">
                 <div className="kane_ai_line"></div>
               </div>
-              <div className="w-11/12">
-                <h2 className="text-[50px]">Introducing KaneAI</h2>
+              <div className="w-11/12 ">
+                <h2 className="text-[50px] !pt-10">Introducing KaneAI</h2>
                 <h3>Reimagining end to end testing in AI era</h3>
               </div>
             </div>
@@ -91,9 +91,9 @@ const Product = () => {
                     <div className="kane_ai_line"></div>
                   </div>
                 </div>
-                <div className="w-11/12">
+                <div className="w-11/12 leading-loose">
                   <h4 className="text-[22px] mt-10">Execute & Schedule 2</h4>
-                  <h3 className="grade_text text-4xl md:text-[60px]">
+                  <h3 className="grade_text text-4xl md:text-[50px]">
                     Run scheduled tests on HyperExecute
                   </h3>
                   <h4 className="text-[30px] text-gray-500">
@@ -158,9 +158,9 @@ const Product = () => {
                     <div className="kane_ai_line"></div>
                   </div>
                 </div>
-                <div className="w-11/12 ">
+                <div className="w-11/12 leading-loose ">
                   <h4 className="text-[22px] mt-10">Integrate</h4>
-                  <h3 className="grade_text_2 text-4xl md:text-[60px] ">
+                  <h3 className="grade_text_2 text-4xl md:text-[50px] ">
                     Seamless integrate KaneAI in your workflow
                   </h3>
                   <h4 className="text-[30px] text-gray-500">
@@ -172,10 +172,13 @@ const Product = () => {
               <div className="border-1 border-blue-200 rounded-2xl flex flex-col md:flex-row justify-baseline relative  bg-blue-50 overflow-hidden p-50">
                 <div className="w-full md:w-7/12 h-[350px] md:h-auto">
                   <p className="text-[20px]">
-                    Seamless integration across JIRA, Azure DevOps, and more.  
+                    Seamless integration across JIRA, Azure DevOps, and more.
                     Wherever you describe your tests KaneAI will follow.
                   </p>
-                  <Link to="/components/doc" className="anc_tag3 mt-10 inline-block">
+                  <Link
+                    to="/components/doc"
+                    className="anc_tag3 mt-10 inline-block"
+                  >
                     Avail Now
                   </Link>
                 </div>
@@ -188,13 +191,16 @@ const Product = () => {
                 <div className="w-full md:w-6/12 ">
                   <h3 className="text-6xl">Leads to Million</h3>
                   <p className="mt-10">
-                    Leaders at Lime on the conversations that <br /> bring value
-                    and drive business
+                    Leaders at REDEFINΞ on the conversations that <br /> bring
+                    value and drive business
                   </p>
-                  <Link to="/components/doc" className="anc_tag4 mt-10 font-medium">
+                  <Link
+                    to="/components/doc"
+                    className="anc_tag4 mt-10 font-medium"
+                  >
                     Brochure
                   </Link>
-                </div> 
+                </div>
                 <div className="w-6/12 hidden md:block ">
                   <img src="/img/million.png" className="w-[80%]" />
                 </div>
@@ -207,9 +213,9 @@ const Product = () => {
                 <div className="flex items-center gap-10 mt-70">
                   <div className="w-6/12 flex flex-col items-end gap-4">
                     <p className="w-[50%]">
-                      "Using Lime {" "}
+                      "Using REDEFINΞ{" "}
                       <span className="text-2xl font-medium">
-                        boosted retention by 12% {" "}
+                        boosted retention by 12%{" "}
                       </span>
                       in the first 60 days."
                     </p>

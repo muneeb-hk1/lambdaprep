@@ -3,62 +3,70 @@
     {
       "id": 1,
       "title": "HyperExecute MCP Tool",
+      "slug": "hyperexecute-mcp-tool",
       "tags": [
         {
+          "id": "101",
           "label": "loop per yard oo",
           "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, commodi."
         },
         {
-          "label": "loop per yard", 
+          "id": "102",
+          "label": "loop per yard",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, commodi."
         }
-      ], 
-      "link": "components/doc"
+      ]
     },
     {
       "id": 2,
       "title": "SmartUI MCP Tool",
+      "slug": "smartui-mcp-tool",
       "tags": [
         {
+          "id": "103",
           "label": "visual testing",
           "description": "Easily capture UI differences and improve testing workflows."
         },
         {
+          "id": "104",
           "label": "snapshot compare",
           "description": "Automate pixel-perfect validations for consistent results."
         }
-      ],
-      "link": "components/dashboard"
+      ]
     },
     {
       "id": 3,
       "title": "Automation MCP Tool",
+      "slug": "automation-mcp-tool",
       "tags": [
         {
+          "id": "105",
           "label": "parallel testing",
           "description": "Run automated tests faster with scalable infrastructure."
         },
         {
+          "id": "106",
           "label": "CI/CD ready",
           "description": "Integrates smoothly with Jenkins, GitHub Actions, and more."
         }
-      ],
-      "link": "components/dashboard"
+      ]
     },
     {
       "id": 4,
       "title": "Accessibility MCP Tool",
+      "slug": "accessibility-mcp-tool",
       "tags": [
         {
+          "id": "107",
           "label": "a11y compliance",
           "description": "Ensure your product is WCAG-compliant and user-friendly."
         },
         {
+          "id": "108",
           "label": "audit reports",
           "description": "Generate detailed reports to fix accessibility issues quickly."
         }
-      ],
-      "link": "components/dashboard"
+      ]
     }
   ]
 }

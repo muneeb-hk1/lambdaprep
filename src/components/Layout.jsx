@@ -5,14 +5,14 @@ import Footer from "./Footer";
 const Layout = () => {
   return (
     <>
-      <nav className="bg-white border-gray-200  p-10 w-full z-[99999] flex justify-center">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto bg-gradient-to-r from-emerald-500 to-blue-300 gap-8 md:gap-40 !p-2 !px-10 rounded-4xl">
+      <nav className="bg-blue border-gray-200  p-10 w-full z-[99999] flex justify-center sticky top-0">
+        <div className="w-full flex flex-wrap items-center justify-between gap-8 md:gap-40">
           <Link
             to="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Lime
+              REDEFINΞ
             </span>
           </Link>
           <button
@@ -44,7 +44,7 @@ const Layout = () => {
               <li>
                 <Link
                   to="/"
-                  className="inline-block py-2 !px-3 text-white bg-emerald-300 rounded-sm md:bg-transparent md:p-0 dark:text-white "
+                  className="inline-block py-2 !px-3 text-white bg-emerald-300 rounded-sm md:bg-transparent md:p-0 dark:text-white font-normal"
                   aria-current="page"
                 >
                   Home
@@ -54,7 +54,7 @@ const Layout = () => {
               <li>
                 <Link
                   to="/components/doc"
-                  className="inline-block py-2 !px-3 text-white rounded-sm md:bg-transparent md:p-0 dark:text-white dark:hover:bg-gray-700 md:hover-bg-transparent md:dark:hover:bg-transparent"
+                  className="inline-block py-2 !px-3 text-white rounded-sm md:bg-transparent md:p-0 dark:text-white dark:hover:bg-gray-700 md:hover-bg-transparent md:dark:hover:bg-transparent font-normal"
                   aria-current="page"
                 >
                   Doc
@@ -64,9 +64,19 @@ const Layout = () => {
               <li>
                 <Link
                   to="/components/dashboard"
-                  className="inline-block py-2 !px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="inline-block py-2 !px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-normal"
                 >
                   Dashboard
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  to="https://linkedin.com/in/muneebhk"
+                  target="_blankver"
+                  className="inline-block py-2 !px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-normal"
+                >
+                  Contact
                 </Link>
               </li>
             </ul>

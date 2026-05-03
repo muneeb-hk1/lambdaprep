@@ -5,6 +5,8 @@ import Home from "./Home";
 import Doc from "./components/Doc";
 import Dashboard from "./components/Dashboard";
 import Layout from "./components/Layout";
+import ProductDetail from "./components/ProductDetail";
+import Error from "./components/Error";
 
 function App() {
   return (
@@ -13,8 +15,10 @@ function App() {
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
-            <Route path="/components/Doc" element={<Doc />} />
-            <Route path="/components/Dashboard" element={<Dashboard />} />
+            <Route path="/components/doc" element={<Doc />} />
+            <Route path="/components/dashboard" element={<Dashboard />} />
+            <Route path="/product/:slug" element={<ProductDetail />} />
+            <Route path="*" element={<Error />} />
           </Route>
         </Routes>
       </BrowserRouter>
